@@ -4,16 +4,17 @@ import { Provider } from 'react-redux';
 import store from './store/store';
 import Login from './components/LoginAndSignUpPages/login';
 import Signup from './components/LoginAndSignUpPages/signUp';
+import ForgotPassword from './components/LoginAndSignUpPages/forgotPassword';
 
 function App() {
   return (
     <Provider store={store}>
       <Router>
         <Routes>
-          {/* Add routes here */}
+        {/* <Route path="/" element={<Login />} /> */}
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
-        {/* Add more routes as needed */}
+        <Route path="/forgotpassword" element={<ForgotPassword />} />
         </Routes>
       </Router>
     </Provider>

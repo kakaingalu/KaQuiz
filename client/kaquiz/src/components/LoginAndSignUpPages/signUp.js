@@ -150,7 +150,7 @@ function DesktopView(){
     
     <div className='d-flex justify-content-center mt-3'>
         <p style={{fontSize: "12px", color: "#7D7D7D"}}>Already have an account?</p>
-        <Link href="/login" style={{fontSize: "12px", marginLeft: '10px', color: '#000000'}} className="text-decoration-none">Login</Link>
+        <Link to="/login" style={{fontSize: "12px", marginLeft: '10px', color: '#000000'}} className="text-decoration-none">Login</Link>
       </div>
     </Card>
     <Card className='border-0 ml-3 p-3' style={{maxWidth: '110vh'}} >
@@ -303,7 +303,7 @@ function MobileView(){
     
     <div className='d-flex justify-content-center mt-2'>
         <p style={{fontSize: "12px", color: "#7D7D7D"}}>Already have an account?</p>
-        <Link href="/login" style={{fontSize: "12px", marginLeft: '10px', color: '#000000'}} className="text-decoration-none">Login</Link>
+        <Link to="/login" style={{fontSize: "12px", marginLeft: '10px', color: '#000000'}} className="text-decoration-none">Login</Link>
       </div>
     </Card>
     </Card>

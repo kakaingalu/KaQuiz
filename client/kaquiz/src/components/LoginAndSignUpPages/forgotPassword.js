@@ -41,12 +41,12 @@ const ForgotPassword = ({ history }) => {
               <Field
                 type="email"
                 name="email"
-                className={`form-control ${errors.email && touched.email ? 'is-invalid' : ''}`}
+                className={`form-control ${errors.email && touched.email ? 'is-invalid' : ''} shadow-none`}
                 onChange={handleChange}
               />
               <ErrorMessage name="email" component="div" className="invalid-feedback" />
             </div>
-            <Button type="submit" disabled={isSubmitting} className="mt-3">
+            <Button type="submit" disabled={isSubmitting} className="bg-dark border-0 shadow-none mt-3">
               {isSubmitting ? 'Sending...' : 'Send Password Reset Link'}
             </Button>
           </Form>

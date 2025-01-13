@@ -109,7 +109,7 @@ function DesktopView (){
                     Remember Me
                   </label>
                 </div>
-                <Link href="/forgot-password" style={{fontSize: "14px", fontColor: "#ABABAB"}} className="text-right m-auto me-0 text-muted text-decoration-none">Forgot Password?</Link>
+                <Link to="/forgotpassword" style={{fontSize: "14px", fontColor: "#ABABAB"}} className="text-right m-auto me-0 text-muted text-decoration-none">Forgot Password?</Link>
           </div>
           <Button style={{fontSize: "14px"}} className='form-control bg-dark border-0 mt-3' type="submit">Log In</Button>
         </Form>
@@ -117,7 +117,7 @@ function DesktopView (){
     </Formik>
     <div className='d-flex justify-content-center mt-3'>
         <p style={{fontSize: "14px", color: "#7D7D7D"}}>Don't have an account?</p>
-        <Link href="/register" style={{fontSize: "14px", marginLeft: '10px', color: '#000000'}} className="text-decoration-none">Register</Link>
+        <Link to="/signup" style={{fontSize: "14px", marginLeft: '10px', color: '#000000'}} className="text-decoration-none">Register</Link>
       </div>
     </Card>
     <Card className='border-0 ml-3 p-3' style={{maxWidth: '110vh'}} >
@@ -228,7 +228,7 @@ function MobileView (){
                     Remember Me
                   </label>
                 </div>
-                <Link href="/forgot-password" style={{fontSize: "14px", fontColor: "#ABABAB"}} className="text-right m-auto me-0 text-muted text-decoration-none">Forgot Password?</Link>
+                <Link to="/forgot-password" style={{fontSize: "14px", fontColor: "#ABABAB"}} className="text-right m-auto me-0 text-muted text-decoration-none">Forgot Password?</Link>
           </div>
           <Button style={{fontSize: "14px"}} className='form-control bg-dark border-0 mt-2' type="submit">Log In</Button>
         </Form>
@@ -236,7 +236,7 @@ function MobileView (){
     </Formik>
     <div className='d-flex justify-content-center mt-3'>
         <p style={{fontSize: "14px", color: "#7D7D7D"}}>Don't have an account?</p>
-        <Link href="/register" style={{fontSize: "14px", marginLeft: '10px', color: '#000000'}} className="text-decoration-none">Register</Link>
+        <Link href="/signup" style={{fontSize: "14px", marginLeft: '10px', color: '#000000'}} className="text-decoration-none">Register</Link>
       </div>
     </Card>
     
