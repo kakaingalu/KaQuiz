@@ -49,7 +49,7 @@ function DesktopView(){
       <Card className='w-25 ml-3 mr-3 p-3'>
         <Card.Title style={{fontFamily: "'Poppins', sans-serif"}} className='text-left mb-2 fs-5 fw-normal'>Welcome!</Card.Title>
         <Card.Text className='text-left mt-2 mb-0 fw-bold fs-4'>Sign up to</Card.Text>
-        <Card.Text className='text-left mb-3' style={{fontSize: "12px"}}>KaQuiz is simply </Card.Text>
+        <Card.Text className='text-left mb-2' style={{fontSize: "12px"}}>KaQuiz is simply </Card.Text>
 
     <Formik
       initialValues={initialValues}
@@ -59,7 +59,7 @@ function DesktopView(){
     >
       {({ errors, touched, setFieldValue, isSubmitting, values, formProps }) => (
         <Form className='d-flex flex-column' onSubmit={handleSubmit}>
-          <p style={{fontSize: "12px"}} className='text-left mt-3 mb-0'>Email</p>
+          <p style={{fontSize: "12px"}} className='text-left mt-2 mb-0'>Email</p>
           <Field
             type="text"
             name="email"
@@ -150,7 +150,7 @@ function DesktopView(){
     
     <div className='d-flex justify-content-center mt-3'>
         <p style={{fontSize: "12px", color: "#7D7D7D"}}>Already have an account?</p>
-        <Link href="/login" style={{fontSize: "12px", marginLeft: '10px', color: '#000000'}} className="text-decoration-none">Register</Link>
+        <Link href="/login" style={{fontSize: "12px", marginLeft: '10px', color: '#000000'}} className="text-decoration-none">Login</Link>
       </div>
     </Card>
     <Card className='border-0 ml-3 p-3' style={{maxWidth: '110vh'}} >
@@ -303,7 +303,7 @@ function MobileView(){
     
     <div className='d-flex justify-content-center mt-2'>
         <p style={{fontSize: "12px", color: "#7D7D7D"}}>Already have an account?</p>
-        <Link href="/login" style={{fontSize: "12px", marginLeft: '10px', color: '#000000'}} className="text-decoration-none">Register</Link>
+        <Link href="/login" style={{fontSize: "12px", marginLeft: '10px', color: '#000000'}} className="text-decoration-none">Login</Link>
       </div>
     </Card>
     </Card>
